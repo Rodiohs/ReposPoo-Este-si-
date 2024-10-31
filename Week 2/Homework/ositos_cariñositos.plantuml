@@ -1,0 +1,58 @@
+@startuml first
+
+class osito_cariñosito(){
+    - string nombre
+    - string poder
+    - string color
+    - string personalidad
+    - string estatura
+    + string getnombre
+    + string getpoder
+    + string getcolor
+    + string getpersonalidad
+    + int getestatura
+
+    +lanzar_poder()
+
+    +caminar()
+
+    +saltar()
+}
+
+class pc(){
+    - string tipo
+    - string procesador
+    - string gpu
+    - string ram
+    - string almacenamiento
+    + string gettipo
+    + string getprocesador
+    + string getgpu
+    + string getram
+    + string getalmacenamiento
+
+    +encender()
+
+    +apagar()
+
+    +abrir_programa()
+}
+
+class zapato(){
+    - string color
+    - string talla
+    - string material
+    - string estilo
+    - string cordones
+    + string getcolor
+    + string gettalla
+    + string getmaterial
+    + string getestilo
+    + string getcordones
+
+    +amarrar_cordon()
+
+    +desamarrar_cordon()
+
+    +desgastarse()
+}
